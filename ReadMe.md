@@ -232,6 +232,10 @@ Industrial IT running on mini-PCs
   <img src="https://streak-stats.demolab.com/?user=moli1369&theme=radical&hide_border=true" alt="streak" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=moli1369&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true&area_color=1f6feb" width="100%" alt="Contribution activity graph" />
+</p>
+
 ---
 
 <p align="center">
