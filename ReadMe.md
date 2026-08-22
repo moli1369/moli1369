@@ -7,12 +7,32 @@
 </p>
 
 <p align="center">
-  <a href="https://moli1369.github.io/nachweise/"><img src="https://img.shields.io/badge/Portfolio-nachweise-0ea5e9?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://moli1369.github.io/nachweise/cli.html"><img src="https://img.shields.io/badge/▶_NOC_Terminal_Lab-Cisco_%2B_MikroTik-0ea5e9?style=for-the-badge" alt="NOC Lab" /></a>
+  <a href="https://moli1369.github.io/nachweise/#network-lab"><img src="https://img.shields.io/badge/Packet_Routing_Game-238636?style=for-the-badge" alt="Packet Game" /></a>
+  <a href="https://moli1369.github.io/nachweise/"><img src="https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/mohamad-askari"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://x.com/moli1369"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <img src="https://komarev.com/ghpvc/?username=moli1369&label=Profile%20views&color=238636&style=for-the-badge" alt="views" />
 </p>
+
+---
+
+### Play · NOC Terminal Lab
+
+Interactive **Cisco IOS** + **MikroTik RouterOS** CLI — based on real missions from production:
+
+| Mission | What you do |
+|:--------|:------------|
+| **OSPF adjacency** | Bring R1 to FULL state on the PtP link |
+| **180 km antenna align** | Align 5.8 GHz Qeshm ↔ Bandar Abbas until signal is OK |
+| **Incident response** | Run the cleanup that saved ~3 weeks of manual work |
+
+<p align="center">
+  <a href="https://moli1369.github.io/nachweise/cli.html"><img src="https://img.shields.io/badge/Open_Terminal_Lab-1f6feb?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Open Lab" /></a>
+</p>
+
+Type commands or click the suggestions. Score builds as you finish each mission.
+
+Also available: **[Packet Routing Game](https://moli1369.github.io/nachweise/#network-lab)** — forward packets through Cisco · FortiGate · MikroTik topology.
 
 ---
 
@@ -103,7 +123,7 @@ Industrie-IT auf Mini-PCs in Betrieb
 
 | Repo | Beschreibung |
 |:-----|:-------------|
-| **[nachweise](https://github.com/moli1369/nachweise)** | Interaktives Portfolio · Nachweise und Projekte (DE/EN) · [Live Demo](https://moli1369.github.io/nachweise/) |
+| **[nachweise](https://github.com/moli1369/nachweise)** | Portfolio + **[NOC Terminal](https://moli1369.github.io/nachweise/cli.html)** + Packet Lab |
 | **[api-mikrotik](https://github.com/moli1369/api-mikrotik)** | MikroTik API Automation in Python |
 | **[mikrotik-dhcp-auto-queue](https://github.com/moli1369/mikrotik-dhcp-auto-queue)** | DHCP + automatische Queues |
 | **[Monitoring](https://github.com/moli1369/Monitoring)** | Monitoring-Stack und Automation |
@@ -119,7 +139,7 @@ Industrie-IT auf Mini-PCs in Betrieb
 </p>
 
 <p align="center">
-  <a href="https://moli1369.github.io/nachweise/?lang=de"><img src="https://img.shields.io/badge/Portfolio%20ansehen-0ea5e9?style=for-the-badge&logo=github&logoColor=white" alt="CTA" /></a>
+  <a href="https://moli1369.github.io/nachweise/cli.html"><img src="https://img.shields.io/badge/▶_Play_NOC_Lab-0ea5e9?style=for-the-badge" alt="Play" /></a>
   <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Nachricht%20schreiben-238636?style=for-the-badge&logo=gmail&logoColor=white" alt="Mail" /></a>
 </p>
 
