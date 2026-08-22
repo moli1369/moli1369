@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D419D&height=180&section=header&text=Mohammad%20Askari%20Dehestani&fontSize=38&fontColor=ffffff&fontAlignY=35&desc=Systemadministrator%20%C2%B7%20Netzwerk%20%26%20IT-Infrastruktur&descSize=15&descAlignY=55&descColor=C9D1D9" width="100%" alt="banner" />
+  <img src="./banner.svg" width="100%" alt="Mohammad Askari Dehestani" />
 </p>
 
 <p align="center">
@@ -124,5 +124,5 @@ Industrie-IT auf Mini-PCs in Betrieb
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D419D&height=100&section=footer" width="100%" alt="footer" />
+  <img src="./footer.svg" width="100%" alt="footer" />
 </p>
