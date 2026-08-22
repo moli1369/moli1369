@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=45&lines=Systemadministrator+%C2%B7+Netzwerk+%26+IT;Open+to+work+%C2%B7+Erlangen+%C2%B7+Germany;Lebenslauf+als+PDF+verf%C3%BCgbar" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=45&lines=Systemadministrator+%C2%B7+Netzwerk+%26+IT;Open+to+work+%C2%B7+Erlangen+%C2%B7+Germany;Lebenslauf+%2B+Zertifikate+als+PDF" alt="typing" />
 </p>
 
 <p align="center">
@@ -30,10 +30,10 @@
   <a href="https://moli1369.github.io/nachweise/assets/docs/Zertifikatsmappe.pdf"><img src="https://img.shields.io/badge/📑_Zertifikate-6e40c9?style=for-the-badge" alt="Zertifikate" /></a>
 </p>
 <p>
+  <a href="mailto:moli1369@gmail.com?subject=Kurzes%20Gespr%C3%A4ch%20%2F%20Intro%20call&body=Hallo%20Mohammad%2C%0A%0Aich%20habe%20Ihr%20GitHub-Profil%20gesehen%20und%20w%C3%BCrde%20gern%20ein%20kurzes%20Gespr%C3%A4ch%20vereinbaren.%0A%0A"><img src="https://img.shields.io/badge/📞_Gespräch_anfragen-e5534b?style=for-the-badge" alt="Gespräch" /></a>
   <a href="https://www.xing.com/profile/Mohammad_Askari058571"><img src="https://img.shields.io/badge/XING-006567?style=for-the-badge&logo=xing&logoColor=white" alt="XING" /></a>
   <a href="https://linkedin.com/in/mohamad-askari"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://moli1369.github.io/nachweise/"><img src="https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 </td>
@@ -43,7 +43,21 @@
 <p align="center">
   <a href="#deutsch"><img src="https://img.shields.io/badge/Deutsch-DE-1f6feb?style=for-the-badge" alt="Deutsch" /></a>
   <a href="#english"><img src="https://img.shields.io/badge/English-EN-238636?style=for-the-badge" alt="English" /></a>
+  <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=moli1369&style=for-the-badge&color=58a6ff" alt="Profile views" />
+</p>
+
+---
+
+### Pinned projects
+
+<p align="center">
+  <a href="https://github.com/moli1369/nachweise"><img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=moli1369&repo=nachweise&theme=radical&hide_border=true" alt="nachweise" /></a>
+  <a href="https://github.com/moli1369/api-mikrotik"><img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=moli1369&repo=api-mikrotik&theme=radical&hide_border=true" alt="api-mikrotik" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/moli1369/mikrotik-dhcp-auto-queue"><img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=moli1369&repo=mikrotik-dhcp-auto-queue&theme=radical&hide_border=true" alt="dhcp-queue" /></a>
+  <a href="https://github.com/moli1369/Monitoring"><img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=moli1369&repo=Monitoring&theme=radical&hide_border=true" alt="Monitoring" /></a>
 </p>
 
 ---
@@ -114,8 +128,8 @@ Industrie-IT auf Mini-PCs in Betrieb
 
 <p align="center">
   <a href="https://moli1369.github.io/nachweise/assets/docs/Lebenslauf_Mohammad_Askari_Dehestani.pdf"><img src="https://img.shields.io/badge/📄_Lebenslauf_PDF-238636?style=for-the-badge" alt="CV" /></a>
+  <a href="mailto:moli1369@gmail.com?subject=Kurzes%20Gespr%C3%A4ch"><img src="https://img.shields.io/badge/📞_Gespräch_anfragen-e5534b?style=for-the-badge" alt="Call" /></a>
   <a href="https://www.xing.com/profile/Mohammad_Askari058571"><img src="https://img.shields.io/badge/XING-006567?style=for-the-badge&logo=xing&logoColor=white" alt="XING" /></a>
-  <a href="https://moli1369.github.io/nachweise/?lang=de"><img src="https://img.shields.io/badge/Portfolio_ansehen-0ea5e9?style=for-the-badge" alt="Portfolio" /></a>
 </p>
 
 ---
@@ -186,8 +200,8 @@ Industrial IT running on mini-PCs
 
 <p align="center">
   <a href="https://moli1369.github.io/nachweise/assets/docs/CV_Mohammad_Askari_Dehestani_EN.pdf"><img src="https://img.shields.io/badge/📄_CV_PDF-1f6feb?style=for-the-badge" alt="CV" /></a>
+  <a href="mailto:moli1369@gmail.com?subject=Intro%20call"><img src="https://img.shields.io/badge/📞_Request_intro_call-e5534b?style=for-the-badge" alt="Call" /></a>
   <a href="https://www.xing.com/profile/Mohammad_Askari058571"><img src="https://img.shields.io/badge/XING-006567?style=for-the-badge&logo=xing&logoColor=white" alt="XING" /></a>
-  <a href="https://moli1369.github.io/nachweise/?lang=en"><img src="https://img.shields.io/badge/View_Portfolio-0ea5e9?style=for-the-badge" alt="Portfolio" /></a>
 </p>
 
 ---
@@ -222,23 +236,12 @@ Industrial IT running on mini-PCs
 
 ---
 
-### Featured Repositories
-
-| Repo | Beschreibung |
-|:-----|:-------------|
-| **[nachweise](https://github.com/moli1369/nachweise)** | Portfolio · Nachweise & Projekte · [Live](https://moli1369.github.io/nachweise/) |
-| **[api-mikrotik](https://github.com/moli1369/api-mikrotik)** | MikroTik API Automation (Python) |
-| **[mikrotik-dhcp-auto-queue](https://github.com/moli1369/mikrotik-dhcp-auto-queue)** | DHCP + automatische Queues |
-| **[Monitoring](https://github.com/moli1369/Monitoring)** | Monitoring-Stack & Automation |
-
----
-
 <p align="center">
   <a href="https://moli1369.github.io/nachweise/assets/docs/Lebenslauf_Mohammad_Askari_Dehestani.pdf"><img src="https://img.shields.io/badge/📄_Lebenslauf_DE-238636?style=for-the-badge" alt="DE" /></a>
   <a href="https://moli1369.github.io/nachweise/assets/docs/CV_Mohammad_Askari_Dehestani_EN.pdf"><img src="https://img.shields.io/badge/📄_CV_EN-1f6feb?style=for-the-badge" alt="EN" /></a>
+  <a href="mailto:moli1369@gmail.com?subject=Kurzes%20Gespr%C3%A4ch"><img src="https://img.shields.io/badge/📞_Gespräch-e5534b?style=for-the-badge" alt="Call" /></a>
   <a href="https://www.xing.com/profile/Mohammad_Askari058571"><img src="https://img.shields.io/badge/XING-006567?style=for-the-badge&logo=xing&logoColor=white" alt="XING" /></a>
   <a href="https://linkedin.com/in/mohamad-askari"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/moli1369@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
