@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=45&lines=Systemadministrator+%C2%B7+Netzwerk+%26+IT;10%2B+Jahre+Infrastruktur-Praxis;Virtualisierung+%C2%B7+Routing+%C2%B7+Automation;Open+to+work+%C2%B7+Erlangen+%C2%B7+Deutschland" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=45&lines=Systemadministrator+%C2%B7+Netzwerk+%26+IT;System+Administrator+%C2%B7+Network+%26+IT;Open+to+work+%C2%B7+Erlangen+%C2%B7+Germany" alt="typing" />
 </p>
 
 <p align="center">
-  <a href="https://moli1369.github.io/nachweise/cli.html"><img src="https://img.shields.io/badge/▶_NOC_Terminal_Lab-Cisco_%2B_MikroTik-0ea5e9?style=for-the-badge" alt="NOC Lab" /></a>
-  <a href="https://moli1369.github.io/nachweise/#network-lab"><img src="https://img.shields.io/badge/Packet_Routing_Game-238636?style=for-the-badge" alt="Packet Game" /></a>
+  <a href="#deutsch"><img src="https://img.shields.io/badge/Deutsch-DE-1f6feb?style=for-the-badge" alt="Deutsch" /></a>
+  <a href="#english"><img src="https://img.shields.io/badge/English-EN-238636?style=for-the-badge" alt="English" /></a>
   <a href="https://moli1369.github.io/nachweise/"><img src="https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/mohamad-askari"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -16,25 +16,9 @@
 
 ---
 
-### Play · NOC Terminal Lab
+<a id="deutsch"></a>
 
-Interactive **Cisco IOS** + **MikroTik RouterOS** CLI — based on real missions from production:
-
-| Mission | What you do |
-|:--------|:------------|
-| **OSPF adjacency** | Bring R1 to FULL state on the PtP link |
-| **180 km antenna align** | Align 5.8 GHz Qeshm ↔ Bandar Abbas until signal is OK |
-| **Incident response** | Run the cleanup that saved ~3 weeks of manual work |
-
-<p align="center">
-  <a href="https://moli1369.github.io/nachweise/cli.html"><img src="https://img.shields.io/badge/Open_Terminal_Lab-1f6feb?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Open Lab" /></a>
-</p>
-
-Type commands or click the suggestions. Score builds as you finish each mission.
-
-Also available: **[Packet Routing Game](https://moli1369.github.io/nachweise/#network-lab)** — forward packets through Cisco · FortiGate · MikroTik topology.
-
----
+## Deutsch
 
 ### Über mich
 
@@ -43,8 +27,6 @@ Ich plane, betreibe und absichere **Netzwerk- und Serverinfrastrukturen** — in
 **Schwerpunkte:** Virtualisierung · Windows Server / Active Directory · Linux · Routing (OSPF, MPLS) · Monitoring · Python-Automation
 
 > Seit Januar 2026 in Deutschland mit gültigem Aufenthaltstitel und uneingeschränkter Arbeitserlaubnis. Kurzfristig verfügbar · bundesweit umzugsbereit.
-
----
 
 ### Ausgewählte Projekte
 
@@ -82,6 +64,83 @@ Industrie-IT auf Mini-PCs in Betrieb
 </td>
 </tr>
 </table>
+
+### Sprachen
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Persisch-Muttersprache-238636?style=for-the-badge" alt="FA" />
+  <img src="https://img.shields.io/badge/Deutsch-B1-1f6feb?style=for-the-badge" alt="DE" />
+  <img src="https://img.shields.io/badge/Englisch-Fachdokumentation-6e40c9?style=for-the-badge" alt="EN" />
+</p>
+
+<p align="center">
+  <a href="https://moli1369.github.io/nachweise/?lang=de"><img src="https://img.shields.io/badge/Portfolio_ansehen-0ea5e9?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Nachricht_schreiben-238636?style=for-the-badge&logo=gmail&logoColor=white" alt="Mail" /></a>
+</p>
+
+---
+
+<a id="english"></a>
+
+## English
+
+### About me
+
+I design, operate and secure **network and server infrastructure** — in ISP, enterprise and industrial environments.
+
+**Focus areas:** Virtualization · Windows Server / Active Directory · Linux · Routing (OSPF, MPLS) · Monitoring · Python automation
+
+> In Germany since January 2026 with a valid residence title and unrestricted work permit. Available at short notice · willing to relocate nationwide.
+
+### Selected projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**180 km microwave link**  
+Qeshm ↔ Bandar Abbas across the Strait of Hormuz  
+`5.8 GHz` · Point-to-Point · continuous monitoring
+
+</td>
+<td width="50%" valign="top">
+
+**~300 devices remediated**  
+Incident response with Python automation  
+`under 1 hour` instead of ~3 weeks of manual work
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Live P2V migration**  
+Production systems without reinstall  
+`Proxmox` · `ESXi` · `Hyper-V`
+
+</td>
+<td width="50%" valign="top">
+
+**SIMATIC / WinCC**  
+Controllers for 80-t vehicles virtualized  
+Industrial IT running on mini-PCs
+
+</td>
+</tr>
+</table>
+
+### Languages
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Persian-Native-238636?style=for-the-badge" alt="FA" />
+  <img src="https://img.shields.io/badge/German-B1-1f6feb?style=for-the-badge" alt="DE" />
+  <img src="https://img.shields.io/badge/English-Technical-6e40c9?style=for-the-badge" alt="EN" />
+</p>
+
+<p align="center">
+  <a href="https://moli1369.github.io/nachweise/?lang=en"><img src="https://img.shields.io/badge/View_Portfolio-0ea5e9?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Send_a_message-238636?style=for-the-badge&logo=gmail&logoColor=white" alt="Mail" /></a>
+</p>
 
 ---
 
@@ -121,26 +180,19 @@ Industrie-IT auf Mini-PCs in Betrieb
 
 ### Featured Repositories
 
-| Repo | Beschreibung |
-|:-----|:-------------|
-| **[nachweise](https://github.com/moli1369/nachweise)** | Portfolio + **[NOC Terminal](https://moli1369.github.io/nachweise/cli.html)** + Packet Lab |
-| **[api-mikrotik](https://github.com/moli1369/api-mikrotik)** | MikroTik API Automation in Python |
+| Repo | DE / EN |
+|:-----|:--------|
+| **[nachweise](https://github.com/moli1369/nachweise)** | Portfolio · Nachweise & Projekte · [Live](https://moli1369.github.io/nachweise/) |
+| **[api-mikrotik](https://github.com/moli1369/api-mikrotik)** | MikroTik API Automation (Python) |
 | **[mikrotik-dhcp-auto-queue](https://github.com/moli1369/mikrotik-dhcp-auto-queue)** | DHCP + automatische Queues |
-| **[Monitoring](https://github.com/moli1369/Monitoring)** | Monitoring-Stack und Automation |
+| **[Monitoring](https://github.com/moli1369/Monitoring)** | Monitoring-Stack & Automation |
 
 ---
 
-### Sprachen und Kontakt
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Persisch-Muttersprache-238636?style=for-the-badge" alt="FA" />
-  <img src="https://img.shields.io/badge/Deutsch-B1-1f6feb?style=for-the-badge" alt="DE" />
-  <img src="https://img.shields.io/badge/Englisch-Fachdokumentation-6e40c9?style=for-the-badge" alt="EN" />
-</p>
-
-<p align="center">
-  <a href="https://moli1369.github.io/nachweise/cli.html"><img src="https://img.shields.io/badge/▶_Play_NOC_Lab-0ea5e9?style=for-the-badge" alt="Play" /></a>
-  <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Nachricht%20schreiben-238636?style=for-the-badge&logo=gmail&logoColor=white" alt="Mail" /></a>
+  <a href="#deutsch"><img src="https://img.shields.io/badge/Deutsch-1f6feb?style=for-the-badge" alt="DE" /></a>
+  <a href="#english"><img src="https://img.shields.io/badge/English-238636?style=for-the-badge" alt="EN" /></a>
+  <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/moli1369@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
