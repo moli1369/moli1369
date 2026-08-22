@@ -3,10 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=45&lines=Systemadministrator+%C2%B7+Netzwerk+%26+IT;Open+to+work+%C2%B7+Erlangen+%C2%B7+Germany;Lebenslauf+auf+Anfrage" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=45&lines=Systemadministrator+%C2%B7+Netzwerk+%26+IT;Open+to+work+%C2%B7+Erlangen+%C2%B7+Germany;Lebenslauf+als+PDF+verf%C3%BCgbar" alt="typing" />
 </p>
 
-<!-- Metrics strip -->
 <p align="center">
   <img src="https://img.shields.io/badge/10%2B_Jahre-Infrastruktur-1f6feb?style=for-the-badge" alt="10+ Jahre" />
   <img src="https://img.shields.io/badge/180_km-Richtfunk-238636?style=for-the-badge" alt="180 km" />
@@ -14,7 +13,6 @@
   <img src="https://img.shields.io/badge/P2V-live_Migration-e5534b?style=for-the-badge" alt="P2V" />
 </p>
 
-<!-- Open to work -->
 <table align="center">
 <tr>
 <td align="center">
@@ -27,10 +25,15 @@
 **Vertrag:** Vollzeit · unbefristet bevorzugt
 
 <p>
-  <a href="mailto:moli1369@gmail.com?subject=Lebenslauf%20Anfrage%20%2F%20Resume%20request&body=Hallo%20Mohammad%2C%0A%0Aich%20interessiere%20mich%20f%C3%BCr%20Ihr%20Profil%20und%20bitte%20um%20Ihren%20Lebenslauf.%0A%0A"><img src="https://img.shields.io/badge/📄_Lebenslauf_anfordern-238636?style=for-the-badge" alt="Lebenslauf" /></a>
+  <a href="https://moli1369.github.io/nachweise/assets/docs/Lebenslauf_Mohammad_Askari_Dehestani.pdf"><img src="https://img.shields.io/badge/📄_Lebenslauf_DE-238636?style=for-the-badge" alt="Lebenslauf DE" /></a>
+  <a href="https://moli1369.github.io/nachweise/assets/docs/CV_Mohammad_Askari_Dehestani_EN.pdf"><img src="https://img.shields.io/badge/📄_CV_EN-1f6feb?style=for-the-badge" alt="CV EN" /></a>
+  <a href="https://moli1369.github.io/nachweise/assets/docs/Zertifikatsmappe.pdf"><img src="https://img.shields.io/badge/📑_Zertifikate-6e40c9?style=for-the-badge" alt="Zertifikate" /></a>
+</p>
+<p>
   <a href="https://www.xing.com/profile/Mohammad_Askari058571"><img src="https://img.shields.io/badge/XING-006567?style=for-the-badge&logo=xing&logoColor=white" alt="XING" /></a>
   <a href="https://linkedin.com/in/mohamad-askari"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://moli1369.github.io/nachweise/"><img src="https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 </td>
@@ -40,7 +43,6 @@
 <p align="center">
   <a href="#deutsch"><img src="https://img.shields.io/badge/Deutsch-DE-1f6feb?style=for-the-badge" alt="Deutsch" /></a>
   <a href="#english"><img src="https://img.shields.io/badge/English-EN-238636?style=for-the-badge" alt="English" /></a>
-  <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=moli1369&style=for-the-badge&color=58a6ff" alt="Profile views" />
 </p>
 
@@ -111,7 +113,7 @@ Industrie-IT auf Mini-PCs in Betrieb
 </p>
 
 <p align="center">
-  <a href="mailto:moli1369@gmail.com?subject=Lebenslauf%20Anfrage"><img src="https://img.shields.io/badge/📄_Lebenslauf_anfordern-238636?style=for-the-badge" alt="CV" /></a>
+  <a href="https://moli1369.github.io/nachweise/assets/docs/Lebenslauf_Mohammad_Askari_Dehestani.pdf"><img src="https://img.shields.io/badge/📄_Lebenslauf_PDF-238636?style=for-the-badge" alt="CV" /></a>
   <a href="https://www.xing.com/profile/Mohammad_Askari058571"><img src="https://img.shields.io/badge/XING-006567?style=for-the-badge&logo=xing&logoColor=white" alt="XING" /></a>
   <a href="https://moli1369.github.io/nachweise/?lang=de"><img src="https://img.shields.io/badge/Portfolio_ansehen-0ea5e9?style=for-the-badge" alt="Portfolio" /></a>
 </p>
@@ -183,7 +185,7 @@ Industrial IT running on mini-PCs
 </p>
 
 <p align="center">
-  <a href="mailto:moli1369@gmail.com?subject=Resume%20request"><img src="https://img.shields.io/badge/📄_Request_resume-238636?style=for-the-badge" alt="CV" /></a>
+  <a href="https://moli1369.github.io/nachweise/assets/docs/CV_Mohammad_Askari_Dehestani_EN.pdf"><img src="https://img.shields.io/badge/📄_CV_PDF-1f6feb?style=for-the-badge" alt="CV" /></a>
   <a href="https://www.xing.com/profile/Mohammad_Askari058571"><img src="https://img.shields.io/badge/XING-006567?style=for-the-badge&logo=xing&logoColor=white" alt="XING" /></a>
   <a href="https://moli1369.github.io/nachweise/?lang=en"><img src="https://img.shields.io/badge/View_Portfolio-0ea5e9?style=for-the-badge" alt="Portfolio" /></a>
 </p>
@@ -232,7 +234,8 @@ Industrial IT running on mini-PCs
 ---
 
 <p align="center">
-  <a href="mailto:moli1369@gmail.com?subject=Lebenslauf%20Anfrage"><img src="https://img.shields.io/badge/📄_Lebenslauf_/_Resume-238636?style=for-the-badge" alt="CV" /></a>
+  <a href="https://moli1369.github.io/nachweise/assets/docs/Lebenslauf_Mohammad_Askari_Dehestani.pdf"><img src="https://img.shields.io/badge/📄_Lebenslauf_DE-238636?style=for-the-badge" alt="DE" /></a>
+  <a href="https://moli1369.github.io/nachweise/assets/docs/CV_Mohammad_Askari_Dehestani_EN.pdf"><img src="https://img.shields.io/badge/📄_CV_EN-1f6feb?style=for-the-badge" alt="EN" /></a>
   <a href="https://www.xing.com/profile/Mohammad_Askari058571"><img src="https://img.shields.io/badge/XING-006567?style=for-the-badge&logo=xing&logoColor=white" alt="XING" /></a>
   <a href="https://linkedin.com/in/mohamad-askari"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:moli1369@gmail.com"><img src="https://img.shields.io/badge/moli1369@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
