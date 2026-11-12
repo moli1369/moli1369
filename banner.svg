@@ -1,13 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="Email contact">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset=".5" stop-color="#0d419d"/>
-      <stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="180" rx="18" fill="url(#bg)"/>
-  <a href="mailto:moli1369@gmail.com">
-    <text x="600" y="100" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="650" fill="#ffffff">moli1369@gmail.com</text>
-  </a>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="410" viewBox="0 0 1440 410" role="img" aria-labelledby="title desc">
+<title id="title">Mohammad Askari Dehestani — IT Infrastructure and Network Engineering</title>
+<desc id="desc">A dark technical banner with a network topology and an operations terminal showing network, virtualization and monitoring status.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#06101B"/>
+    <stop offset=".55" stop-color="#0A1B2A"/>
+    <stop offset="1" stop-color="#071321"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#42C7FF" stop-opacity=".1"/>
+    <stop offset=".55" stop-color="#42C7FF" stop-opacity=".9"/>
+    <stop offset="1" stop-color="#8ED9F5" stop-opacity=".2"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#11283A" stop-opacity=".96"/>
+    <stop offset="1" stop-color="#0A1724" stop-opacity=".96"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop offset="0" stop-color="#0C91C7" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#0C91C7" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#8ED9F5" stroke-opacity=".055" stroke-width="1"/>
+  </pattern>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7"/>
+  </filter>
+  <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+    <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".34"/>
+  </filter>
+</defs>
+<rect width="1440" height="410" rx="24" fill="url(#bg)"/>
+<rect width="1440" height="410" rx="24" fill="url(#grid)"/>
+<ellipse cx="1050" cy="205" rx="430" ry="280" fill="url(#glow)"/>
+<path d="M0 335C240 292 420 388 650 340S1080 287 1440 340" fill="none" stroke="#42C7FF" stroke-opacity=".12" stroke-width="2"/>
+<path d="M0 354C280 314 430 398 700 354S1130 315 1440 366" fill="none" stroke="#42C7FF" stroke-opacity=".07" stroke-width="1.5"/>
+
+<!-- Left: identity and positioning -->
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <rect x="64" y="55" width="8" height="8" rx="4" fill="#42C7FF"/>
+  <text x="88" y="64" fill="#79CFF0" font-size="14" font-weight="700" letter-spacing="3.2">IT INFRASTRUCTURE / NETWORK ENGINEERING</text>
+  <text x="64" y="139" fill="#F0F8FF" font-size="56" font-weight="750" letter-spacing="-2.2">Build. Automate.</text>
+  <text x="64" y="205" fill="#F0F8FF" font-size="56" font-weight="750" letter-spacing="-2.2">Operate.</text>
+  <text x="66" y="255" fill="#A7C0D2" font-size="21" font-weight="450">Networks · Servers · Virtualization · Security</text>
+  <text x="66" y="286" fill="#A7C0D2" font-size="21" font-weight="450">Monitoring · Automation · Production Operations</text>
+  <rect x="64" y="326" width="310" height="42" rx="21" fill="#0C2738" stroke="#1B536D"/>
+  <circle cx="86" cy="347" r="5" fill="#38D9A9"/>
+  <text x="103" y="352" fill="#C7E7F4" font-size="14" font-weight="650" letter-spacing=".6">ERLANGEN, GERMANY</text>
+</g>
+
+<!-- Network links behind operations panel -->
+<g fill="none" stroke="url(#edge)" stroke-width="2">
+  <path d="M890 102L1030 70L1167 120L1308 85"/>
+  <path d="M890 102L970 212L1115 220L1265 172L1370 225"/>
+  <path d="M1030 70L1115 220L1167 120"/>
+  <path d="M1167 120L1265 172L1308 85"/>
+  <path d="M970 212L900 319L1088 338L1265 172"/>
+</g>
+<g fill="#42C7FF" opacity=".15" filter="url(#softGlow)">
+  <circle cx="890" cy="102" r="12"/><circle cx="1030" cy="70" r="12"/><circle cx="1167" cy="120" r="12"/>
+  <circle cx="1308" cy="85" r="12"/><circle cx="970" cy="212" r="12"/><circle cx="1115" cy="220" r="12"/>
+  <circle cx="1265" cy="172" r="12"/><circle cx="1370" cy="225" r="12"/>
+</g>
+<g fill="#071321" stroke="#42C7FF" stroke-width="2">
+  <circle cx="890" cy="102" r="6"/><circle cx="1030" cy="70" r="6"/><circle cx="1167" cy="120" r="6"/>
+  <circle cx="1308" cy="85" r="6"/><circle cx="970" cy="212" r="6"/><circle cx="1115" cy="220" r="6"/>
+  <circle cx="1265" cy="172" r="6"/><circle cx="1370" cy="225" r="6"/>
+</g>
+
+<!-- Right: operations terminal -->
+<g filter="url(#shadow)" font-family="IBM Plex Mono,Consolas,monospace">
+  <rect x="880" y="88" width="490" height="260" rx="18" fill="url(#panel)" stroke="#24465E" stroke-width="1.4"/>
+  <path d="M880 130H1370" stroke="#24465E"/>
+  <circle cx="906" cy="109" r="5" fill="#FF6B6B"/>
+  <circle cx="925" cy="109" r="5" fill="#F5C451"/>
+  <circle cx="944" cy="109" r="5" fill="#38D9A9"/>
+  <text x="975" y="114" fill="#8BAABD" font-size="12" letter-spacing="1.2">infra@operations:~</text>
+  <text x="908" y="160" fill="#42C7FF" font-size="13">$ systemctl status infrastructure</text>
+
+  <circle cx="913" cy="194" r="4" fill="#38D9A9"/>
+  <text x="930" y="199" fill="#DDEBF3" font-size="14">network.service</text>
+  <text x="1326" y="199" fill="#38D9A9" font-size="12" text-anchor="end">ACTIVE</text>
+
+  <circle cx="913" cy="228" r="4" fill="#38D9A9"/>
+  <text x="930" y="233" fill="#DDEBF3" font-size="14">virtualization</text>
+  <text x="1326" y="233" fill="#38D9A9" font-size="12" text-anchor="end">HEALTHY</text>
+
+  <circle cx="913" cy="262" r="4" fill="#38D9A9"/>
+  <text x="930" y="267" fill="#DDEBF3" font-size="14">monitoring.service</text>
+  <text x="1326" y="267" fill="#38D9A9" font-size="12" text-anchor="end">RUNNING</text>
+
+  <circle cx="913" cy="296" r="4" fill="#38D9A9"/>
+  <text x="930" y="301" fill="#DDEBF3" font-size="14">security.service</text>
+  <text x="1326" y="301" fill="#38D9A9" font-size="12" text-anchor="end">HARDENED</text>
+
+  <path d="M908 320H1342" stroke="#24465E"/>
+  <text x="908" y="338" fill="#7EA2B9" font-size="11">STATUS: OPERATIONAL</text>
+</g>
+<rect x=".75" y=".75" width="1438.5" height="408.5" rx="23.25" fill="none" stroke="#31536A" stroke-opacity=".55" stroke-width="1.5"/>
 </svg>
