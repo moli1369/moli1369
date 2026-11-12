@@ -1,20 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="Email contact">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="50%" style="stop-color:#0d419d"/>
-      <stop offset="100%" style="stop-color:#0d1117"/>
-    </linearGradient>
-    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#1f6feb;stop-opacity:0.3"/>
-      <stop offset="50%" style="stop-color:#58a6ff;stop-opacity:0.5"/>
-      <stop offset="100%" style="stop-color:#1f6feb;stop-opacity:0.3"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset=".5" stop-color="#0d419d"/>
+      <stop offset="1" stop-color="#0d1117"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="280" fill="url(#bg)"/>
-  <path d="M0,220 C150,180 350,260 600,210 C850,160 1050,240 1200,200 L1200,280 L0,280 Z" fill="url(#wave)"/>
-  <path d="M0,240 C200,200 400,270 700,230 C900,200 1100,250 1200,230 L1200,280 L0,280 Z" fill="#0d1117" opacity="0.6"/>
-  <text x="600" y="110" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Mohammad Askari Dehestani</text>
-  <text x="600" y="155" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#c9d1d9">Systemadministrator · Netzwerk &amp; IT-Infrastruktur</text>
-  <text x="600" y="190" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#58a6ff">Erlangen · Open to work · 10+ Jahre Praxis</text>
+  <rect width="1200" height="180" rx="18" fill="url(#bg)"/>
+  <a href="mailto:moli1369@gmail.com">
+    <text x="600" y="100" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="650" fill="#ffffff">moli1369@gmail.com</text>
+  </a>
 </svg>
