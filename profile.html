@@ -1,18 +1,222 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0d1117">
-  <title>Contact</title>
+  <meta name="theme-color" content="#07111D">
+  <meta name="description" content="Mohammad Askari Dehestani — System Administration, Network Engineering, Virtualization, Security and Automation.">
+  <title>Mohammad Askari Dehestani · IT Infrastructure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
+    :root{color-scheme:dark;--bg:#07111d;--panel:#0b1724;--panel-2:#102236;--line:#1b3549;--text:#edf7ff;--muted:#91aabd;--cyan:#42c7ff;--cyan-soft:#8ed9f5;--green:#38d9a9;--shadow:0 22px 70px #0005}
     *{box-sizing:border-box}
-    body{min-height:100vh;margin:0;display:grid;place-items:center;background:#0d1117;color:#e6edf3;font:500 16px system-ui,sans-serif}
-    a{color:#58a6ff;text-decoration:none;padding:18px 24px;border:1px solid #30363d;border-radius:12px;background:#161b22}
-    a:hover{border-color:#58a6ff}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:radial-gradient(ellipse at 82% -15%,#10314a 0,transparent 38%),radial-gradient(ellipse at 2% 70%,#0d2a3c 0,transparent 34%),var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.6}
+    a{color:var(--cyan);text-decoration:none}
+    a:hover{text-decoration:underline}
+    a:focus-visible,button:focus-visible{outline:3px solid #42c7ff85;outline-offset:3px}
+    .shell{max-width:1160px;margin:auto;padding:22px 22px 42px}
+    .topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:6px 0 22px;border-bottom:1px solid #193247}
+    .brand{display:flex;align-items:center;gap:12px}
+    .mark{display:grid;place-items:center;width:43px;height:43px;border:1px solid #2e7b9b;border-radius:13px;background:linear-gradient(145deg,#103a55,#0a1c2c);color:var(--cyan);font-weight:800;font-size:18px}
+    .brand strong{display:block;font-size:14px;letter-spacing:.06em}
+    .brand span{display:block;color:var(--muted);font:11px "IBM Plex Mono",monospace;letter-spacing:.12em}
+    .nav{display:flex;align-items:center;gap:18px;color:var(--muted);font-size:12px}
+    .nav a{color:var(--muted)}
+    .language{display:flex;gap:4px;padding:4px;border:1px solid var(--line);border-radius:12px;background:#091724}
+    .language button{border:0;border-radius:8px;padding:7px 10px;background:transparent;color:var(--muted);font:600 11px "IBM Plex Mono",monospace;cursor:pointer}
+    .language button[aria-pressed=true]{background:#123d58;color:#dff7ff}
+    .hero{position:relative;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(340px,.9fr);gap:34px;align-items:center;min-height:360px;margin:26px 0 22px;padding:42px;border:1px solid #23465d;border-radius:24px;overflow:hidden;background:linear-gradient(115deg,#0a1a2a 0%,#0b1e2e 54%,#0b2235 100%);box-shadow:var(--shadow)}
+    .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 40%,#42c7ff0c),repeating-linear-gradient(0deg,transparent 0 35px,#8ed9f505 36px 37px);pointer-events:none}
+    .hero-copy,.terminal{position:relative}
+    .eyebrow{color:var(--cyan-soft);font:600 11px "IBM Plex Mono",monospace;letter-spacing:.18em;text-transform:uppercase}
+    h1{max-width:650px;margin:17px 0 16px;font-size:clamp(38px,6vw,64px);line-height:1.04;letter-spacing:-.055em}
+    .lead{max-width:610px;color:#b0c5d5;font-size:16px}
+    .tagline{margin:19px 0 0;color:#86a6bb;font:12px "IBM Plex Mono",monospace;letter-spacing:.04em}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:27px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:0 17px;border:1px solid #2b6c8d;border-radius:10px;background:#0d3046;color:#e9f8ff;font-size:13px;font-weight:700}
+    .btn.primary{border-color:#42b9e9;background:linear-gradient(120deg,#087ca7,#1059a7);box-shadow:0 9px 26px #087ca733}
+    .btn:hover{text-decoration:none;filter:brightness(1.12);transform:translateY(-1px)}
+    .terminal{border:1px solid #2a4b61;border-radius:17px;overflow:hidden;background:#071420;box-shadow:0 16px 42px #0005}
+    .term-top{display:flex;align-items:center;gap:7px;padding:13px 15px;border-bottom:1px solid #203a4e;background:#0c1b29}
+    .dot{width:8px;height:8px;border-radius:50%;background:#ff6b6b}.dot:nth-child(2){background:#f5c451}.dot:nth-child(3){background:#38d9a9}
+    .term-name{margin-left:auto;color:#7894a9;font:11px "IBM Plex Mono",monospace}
+    .term-body{padding:19px 20px 21px;font:12px/2 "IBM Plex Mono",monospace}
+    .command{color:var(--cyan)}
+    .service{display:flex;justify-content:space-between;gap:10px;color:#d7e5ef}
+    .service span:last-child{color:var(--green);font-size:10px;letter-spacing:.08em}
+    .terminal-foot{margin-top:13px;padding-top:12px;border-top:1px solid #1b3549;color:#7290a6;font-size:10px}
+    .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin:0 0 42px}
+    .metric{padding:18px 16px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(145deg,#0d2030,#0a1724)}
+    .metric strong{display:block;color:var(--cyan);font-size:27px;letter-spacing:-.04em}
+    .metric span{color:var(--muted);font-size:11px}
+    section{margin-top:42px}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:17px}
+    .section-kicker{color:var(--cyan);font:600 10px "IBM Plex Mono",monospace;letter-spacing:.16em}
+    h2{margin:5px 0 0;font-size:26px;letter-spacing:-.04em}
+    .section-head p{max-width:460px;margin:0;color:var(--muted);font-size:13px}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .card{padding:22px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#0d2030,#091724);transition:transform .18s,border-color .18s}
+    .card:hover{transform:translateY(-3px);border-color:#2d7192}
+    .card .number{color:#4faed0;font:11px "IBM Plex Mono",monospace}
+    .card h3{margin:8px 0 7px;font-size:17px}
+    .card p{margin:0;color:var(--muted);font-size:13px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}
+    .chips span{padding:5px 9px;border:1px solid #244258;border-radius:7px;background:#091a28;color:#9fc6d9;font:10px "IBM Plex Mono",monospace}
+    .tech-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}
+    .tech{padding:17px;border:1px solid var(--line);border-radius:14px;background:#0a1927}
+    .tech h3{margin:0 0 8px;font-size:14px}
+    .tech p{margin:0;color:var(--muted);font-size:12px}
+    .portfolio-bar{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:23px 25px;border:1px solid #22516a;border-radius:16px;background:linear-gradient(110deg,#102b40,#0a1a2a)}
+    .portfolio-bar h3{margin:0 0 5px;font-size:18px}.portfolio-bar p{margin:0;color:var(--muted);font-size:12px}
+    .contact{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:25px;border:1px solid #24506a;border-radius:17px;background:linear-gradient(115deg,#0e2b41,#0a1b2a)}
+    .contact h2{font-size:22px}.contact p{margin:7px 0 0;color:var(--muted);font-size:13px}
+    .contact .btn{white-space:nowrap}
+    footer{display:flex;justify-content:space-between;gap:16px;margin-top:30px;padding-top:18px;border-top:1px solid #1b3549;color:#66869b;font:10px "IBM Plex Mono",monospace}
+    @media(max-width:850px){.hero{grid-template-columns:1fr;padding:30px}.terminal{max-width:540px}.tech-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav{gap:10px}}
+    @media(max-width:620px){.shell{padding:12px 13px 28px}.topbar{flex-wrap:wrap;padding-bottom:13px}.nav{order:3;width:100%;justify-content:space-between;font-size:11px}.hero{min-height:0;margin:15px 0;padding:23px 19px;border-radius:18px;gap:22px}h1{font-size:40px}.lead{font-size:14px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.metric{padding:14px}.metric strong{font-size:24px}.section-head{display:block}.section-head p{margin-top:9px}.cards{grid-template-columns:1fr}.tech-grid{grid-template-columns:1fr 1fr}.portfolio-bar,.contact{align-items:flex-start;flex-direction:column;padding:20px}.contact .btn{width:100%}footer{flex-direction:column}}
+    @media(max-width:370px){h1{font-size:34px}.tech-grid{grid-template-columns:1fr}.term-body{padding:16px 13px;font-size:11px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
   </style>
 </head>
 <body>
-  <a href="mailto:moli1369@gmail.com">moli1369@gmail.com</a>
+<div class="shell">
+  <header class="topbar">
+    <a class="brand" href="#top" style="color:inherit;text-decoration:none">
+      <span class="mark">MA</span>
+      <span><strong>MOHAMMAD ASKARI DEHESTANI</strong><span>IT INFRASTRUCTURE / NETWORK ENGINEERING</span></span>
+    </a>
+    <div class="language" role="group" aria-label="Language">
+      <button type="button" data-lang="de" aria-pressed="true">DE</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#projects" data-i="navProjects">Projekte</a>
+      <a href="#technology" data-i="navTechnology">Technologien</a>
+      <a href="#contact" data-i="navContact">Kontakt</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow" data-i="eyebrow">IT INFRASTRUCTURE · ERLANGEN, GERMANY</div>
+        <h1 data-i="headline">Build. Automate.<br>Operate.</h1>
+        <p class="lead" data-i="lead">Ich verbinde Netzwerk-Engineering, Serverbetrieb, Virtualisierung und Security zu stabilen Systemen für den Produktivbetrieb.</p>
+        <p class="tagline">NETWORKS · SERVERS · VIRTUALIZATION · SECURITY · AUTOMATION</p>
+        <div class="actions">
+          <a class="btn primary" href="https://moli1369.github.io/nachweise/" data-i="portfolio">Portfolio &amp; Network Lab ↗</a>
+          <a class="btn" href="mailto:moli1369@gmail.com" data-i="email">E-Mail schreiben ↗</a>
+        </div>
+      </div>
+      <div class="terminal" aria-label="Infrastructure operations status">
+        <div class="term-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="term-name">infra@operations:~</span></div>
+        <div class="term-body">
+          <div class="command">$ systemctl status infrastructure</div>
+          <div class="service"><span>network.service</span><span>ACTIVE</span></div>
+          <div class="service"><span>virtualization</span><span>HEALTHY</span></div>
+          <div class="service"><span>monitoring.service</span><span>RUNNING</span></div>
+          <div class="service"><span>security.service</span><span>HARDENED</span></div>
+          <div class="terminal-foot">STATUS: OPERATIONAL · ROUTING / CLUSTER / OBSERVABILITY</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="metrics" aria-label="Selected experience and outcomes">
+      <div class="metric"><strong>10+</strong><span data-i="metricYears">Jahre IT-Praxis</span></div>
+      <div class="metric"><strong>180 km</strong><span data-i="metricLink">Microwave Backhaul</span></div>
+      <div class="metric"><strong>~300</strong><span data-i="metricDevices">automatisierte Geräte</span></div>
+      <div class="metric"><strong>3</strong><span data-i="metricPlatforms">Virtualisierungsplattformen</span></div>
+    </div>
+
+    <section id="projects">
+      <div class="section-head"><div><div class="section-kicker">01 / SELECTED WORK</div><h2 data-i="projectsTitle">Projekte mit praktischem Ergebnis.</h2></div><p data-i="projectsIntro">Technische Arbeit aus realen Netzwerk-, Server- und Industrieumgebungen.</p></div>
+      <div class="cards">
+        <article class="card"><span class="number">PROJECT / 01</span><h3 data-i="p1title">180 km Microwave Backhaul</h3><p data-i="p1body">Richtfunk- und Backhaul-Verbindung mit Routing, Standortanbindung und Monitoring.</p><div class="chips"><span>Microwave</span><span>WAN</span><span>Routing</span></div></article>
+        <article class="card"><span class="number">PROJECT / 02</span><h3 data-i="p2title">Automatisierte Incident Response</h3><p data-i="p2body">Python-basierte Bereinigung und Härtung von rund 300 Netzwerkgeräten in unter einer Stunde.</p><div class="chips"><span>Python</span><span>SSH</span><span>Hardening</span></div></article>
+        <article class="card"><span class="number">PROJECT / 03</span><h3 data-i="p3title">Proxmox · Ceph · HA</h3><p data-i="p3body">Clusterbetrieb mit verteilter Speicherung, Quorum-Betrachtung und Failover.</p><div class="chips"><span>Proxmox VE</span><span>Ceph</span><span>High Availability</span></div></article>
+        <article class="card"><span class="number">PROJECT / 04</span><h3 data-i="p4title">Multi-Site VoIP</h3><p data-i="p4body">Virtualisierte Issabel-PBX-Umgebung für Büro- und Hafenstandorte.</p><div class="chips"><span>Issabel</span><span>SIP</span><span>VoIP</span></div></article>
+        <article class="card"><span class="number">PROJECT / 05</span><h3 data-i="p5title">Industrial IT · SIMATIC / WinCC</h3><p data-i="p5body">Virtualisierung und Härtung industrieller Steuerungsumgebungen.</p><div class="chips"><span>SIMATIC</span><span>WinCC</span><span>Windows</span></div></article>
+        <article class="card"><span class="number">PROJECT / 06</span><h3 data-i="p6title">Rural Connectivity</h3><p data-i="p6body">Vernetzung entfernter Standorte über Wireless Backhaul und WAN.</p><div class="chips"><span>Wireless</span><span>VLAN</span><span>WAN</span></div></article>
+      </div>
+    </section>
+
+    <section id="technology">
+      <div class="section-head"><div><div class="section-kicker">02 / TOOLBOX</div><h2 data-i="technologyTitle">Technologien im Einsatz.</h2></div><p data-i="technologyIntro">Netzwerk, Plattformen, Sicherheit, Monitoring und Automatisierung.</p></div>
+      <div class="tech-grid">
+        <article class="tech"><h3 data-i="t1title">Network Engineering</h3><p>Cisco · MikroTik · OSPF · MPLS · VLAN · VPN · Fortinet</p></article>
+        <article class="tech"><h3 data-i="t2title">Servers &amp; Virtualization</h3><p>Windows Server · AD/GPO · Linux · Proxmox · VMware · Hyper-V · Ceph</p></article>
+        <article class="tech"><h3 data-i="t3title">Security &amp; Monitoring</h3><p>FortiGate · PRTG · Zabbix · Grafana · Hardening · Incident Response</p></article>
+        <article class="tech"><h3 data-i="t4title">Automation &amp; Development</h3><p>Python · FastAPI · Django · Flask · C#/.NET · REST APIs</p></article>
+      </div>
+    </section>
+
+    <section class="portfolio-bar">
+      <div><h3 data-i="portfolioTitle">Mehr als eine Projektliste.</h3><p data-i="portfolioBody">Das Portfolio enthält detaillierte Fallstudien und ein interaktives Network Operations Lab.</p></div>
+      <a class="btn primary" href="https://moli1369.github.io/nachweise/" data-i="portfolioButton">Portfolio öffnen ↗</a>
+    </section>
+
+    <section id="contact" class="contact">
+      <div><div class="section-kicker">03 / CONTACT</div><h2 data-i="contactTitle">Direkt in Kontakt treten.</h2><p data-i="contactBody">Für technische Gespräche, Projekte oder passende IT-Infrastruktur-Rollen.</p></div>
+      <a class="btn primary" href="mailto:moli1369@gmail.com">moli1369@gmail.com ↗</a>
+    </section>
+  </main>
+  <footer><span>© Mohammad Askari Dehestani</span><span>NETWORKS · SYSTEMS · AUTOMATION</span></footer>
+</div>
+<script>
+const copy={
+  de:{
+    navProjects:'Projekte',navTechnology:'Technologien',navContact:'Kontakt',
+    eyebrow:'IT INFRASTRUCTURE · ERLANGEN, GERMANY',
+    headline:'Build. Automate.<br>Operate.',
+    lead:'Ich verbinde Netzwerk-Engineering, Serverbetrieb, Virtualisierung und Security zu stabilen Systemen für den Produktivbetrieb.',
+    portfolio:'Portfolio & Network Lab ↗',email:'E-Mail schreiben ↗',
+    metricYears:'Jahre IT-Praxis',metricLink:'Microwave Backhaul',metricDevices:'automatisierte Geräte',metricPlatforms:'Virtualisierungsplattformen',
+    projectsTitle:'Projekte mit praktischem Ergebnis.',projectsIntro:'Technische Arbeit aus realen Netzwerk-, Server- und Industrieumgebungen.',
+    p1title:'180 km Microwave Backhaul',p1body:'Richtfunk- und Backhaul-Verbindung mit Routing, Standortanbindung und Monitoring.',
+    p2title:'Automatisierte Incident Response',p2body:'Python-basierte Bereinigung und Härtung von rund 300 Netzwerkgeräten in unter einer Stunde.',
+    p3title:'Proxmox · Ceph · HA',p3body:'Clusterbetrieb mit verteilter Speicherung, Quorum-Betrachtung und Failover.',
+    p4title:'Multi-Site VoIP',p4body:'Virtualisierte Issabel-PBX-Umgebung für Büro- und Hafenstandorte.',
+    p5title:'Industrial IT · SIMATIC / WinCC',p5body:'Virtualisierung und Härtung industrieller Steuerungsumgebungen.',
+    p6title:'Rural Connectivity',p6body:'Vernetzung entfernter Standorte über Wireless Backhaul und WAN.',
+    technologyTitle:'Technologien im Einsatz.',technologyIntro:'Netzwerk, Plattformen, Sicherheit, Monitoring und Automatisierung.',
+    t1title:'Network Engineering',t2title:'Server & Virtualisierung',t3title:'Security & Monitoring',t4title:'Automation & Development',
+    portfolioTitle:'Mehr als eine Projektliste.',portfolioBody:'Das Portfolio enthält detaillierte Fallstudien und ein interaktives Network Operations Lab.',portfolioButton:'Portfolio öffnen ↗',
+    contactTitle:'Direkt in Kontakt treten.',contactBody:'Für technische Gespräche, Projekte oder passende IT-Infrastruktur-Rollen.'
+  },
+  en:{
+    navProjects:'Projects',navTechnology:'Technology',navContact:'Contact',
+    eyebrow:'IT INFRASTRUCTURE · ERLANGEN, GERMANY',
+    headline:'Build. Automate.<br>Operate.',
+    lead:'I connect network engineering, server operations, virtualization and security into reliable systems built for production.',
+    portfolio:'Portfolio & Network Lab ↗',email:'Send an email ↗',
+    metricYears:'years in IT',metricLink:'microwave backhaul',metricDevices:'devices automated',metricPlatforms:'virtualization platforms',
+    projectsTitle:'Practical work with measurable outcomes.',projectsIntro:'Hands-on projects across network, server and industrial environments.',
+    p1title:'180 km Microwave Backhaul',p1body:'Long-distance wireless backhaul with routing, site connectivity and monitoring.',
+    p2title:'Automated Incident Response',p2body:'Python-based remediation and hardening of around 300 network devices in under one hour.',
+    p3title:'Proxmox · Ceph · HA',p3body:'Cluster operations with distributed storage, quorum awareness and failover.',
+    p4title:'Multi-Site VoIP',p4body:'Virtualized Issabel PBX environment connecting office and port operations.',
+    p5title:'Industrial IT · SIMATIC / WinCC',p5body:'Virtualization and hardening of industrial control environments.',
+    p6title:'Rural Connectivity',p6body:'Connecting remote sites through wireless backhaul and WAN.',
+    technologyTitle:'Technologies in practice.',technologyIntro:'Networking, platforms, security, monitoring and automation.',
+    t1title:'Network Engineering',t2title:'Servers & Virtualization',t3title:'Security & Monitoring',t4title:'Automation & Development',
+    portfolioTitle:'More than a project list.',portfolioBody:'The portfolio includes detailed case studies and an interactive Network Operations Lab.',portfolioButton:'Open portfolio ↗',
+    contactTitle:'Get in touch directly.',contactBody:'For technical discussions, projects or relevant IT infrastructure opportunities.'
+  }
+};
+function setLanguage(lang){
+  const data=copy[lang]||copy.de;
+  document.documentElement.lang=lang;
+  document.querySelectorAll('[data-i]').forEach(el=>{const key=el.dataset.i;if(data[key]!==undefined)el.innerHTML=data[key]});
+  document.querySelectorAll('[data-lang]').forEach(button=>button.setAttribute('aria-pressed',button.dataset.lang===lang?'true':'false'));
+  try{localStorage.setItem('moli-profile-language',lang)}catch{}
+}
+document.querySelectorAll('[data-lang]').forEach(button=>button.addEventListener('click',()=>setLanguage(button.dataset.lang)));
+let initial='de';
+try{initial=localStorage.getItem('moli-profile-language')||'de'}catch{}
+setLanguage(initial);
+</script>
 </body>
 </html>
